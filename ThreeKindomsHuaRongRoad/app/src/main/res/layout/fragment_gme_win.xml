@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game_win">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="您已经获胜了!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ea0c22"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:background="@drawable/g_up_button1"
+        android:padding="16px"/>
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="game_body_text">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="game_body_rect1" parent="game_body_text">
+        <item name="android:layout_width">@dimen/length1</item>
+        <item name="android:layout_height">@dimen/length2</item>
+        <item name="android:background">@color/g2</item>
+
+    </style>
+
+    <style name="game_body_rect2" parent="game_body_text">
+        <item name="android:layout_width">@dimen/length2</item>
+        <item name="android:layout_height">@dimen/length2</item>
+        <item name="android:background">@color/g1</item>
+    </style>
+
+    <style name="game_body_rect3" parent="game_body_text">
+        <item name="android:layout_width">@dimen/length2</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">@color/g3</item>
+    </style>
+
+    <style name="game_body_rect4" parent="game_body_text">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">@color/g4</item>
+    </style>
+
+    <style name="game_up_text">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

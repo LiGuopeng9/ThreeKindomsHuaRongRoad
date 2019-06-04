@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按下时的样式-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--色值-->
+            <solid android:color="#e79429" />
+            <!--圆角-->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!--默认背景-->
+    <item>
+    <shape>
+        <solid android:color="#d2eac796" />
+        <corners android:radius="10dp" />
+        <stroke android:width="2dip"
+            android:color="#9a8b570c"
+            />
+    </shape>
+    </item>
+</selector>

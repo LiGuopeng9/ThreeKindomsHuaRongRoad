@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="g1">#9b35679a</color>
+    <color name="g2">#9ccccc9a</color>
+    <color name="g3">#9c359acc</color>
+    <color name="g4">#9c9acccc</color>
+    <color name="gbutton">#a7dfc5a2</color>
+    <color name="mback">#e6fcef</color>
+</resources>
